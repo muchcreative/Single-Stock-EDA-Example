@@ -9,7 +9,7 @@ I am assuming you already have the OHLCV data for a single stock. If you do not 
 
 **1. Standardization Vs Normalization**
 
-Test different ways to standardize vs normalizing you stock data
+Test different ways to standardize vs normalize you stock data
 
 **2. Plotting**
 
