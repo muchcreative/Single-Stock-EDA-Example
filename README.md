@@ -5,6 +5,8 @@ High volatilities, high kurtosis, and fat-tail distributions are the enemy of ma
 
 I am assuming you already have the OHLCV data for a single stock. If you do not have this data, look into my other repositories for how to build a rotating stock dataset. You will also need market data for part 4 below.
 
+This is an excerpt from a stock machine learning program
+
 ## Breakdown
 
 **1. Standardization Vs Normalization**
