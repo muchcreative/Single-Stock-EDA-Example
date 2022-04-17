@@ -11,11 +11,11 @@ This is an excerpt from one of my stock machine learning programs.
 
 **1. Standardization Vs Normalization**
 
-Test different ways to standardize vs normalize you stock data
+Test different ways for standardizing vs normalizing your stock data.
 
 **2. Plotting**
 
-Histograms, QQ-plots, ACF, and PACF plots are your friends. Summarize findings and understand your cutoff for your fat tail distributions
+Histograms, QQ-plots, ACF, and PACF plots are your friends. Summarize findings and understand your cutoff to identify your fat-tail distributions.
 
 **3. Anomaly Detection and Clustering**
 
