@@ -7,14 +7,14 @@ I am assuming you already have the OHLCV data for a single stock. If you do not 
 
 ## Breakdown
 
-### 1. Standardization Vs Normalization
+**1. Standardization Vs Normalization**
 Test different ways to standardize vs normalizing you stock data
 
-### 2. Plotting
+**2. Plotting**
 Histograms, QQ-plots, ACF, and PACF plots are your friends. Summarize findings and understand your cutoff for your fat tail distributions
 
-### 3. Anomaly Detection and Clustering
+**3. Anomaly Detection and Clustering**
 Understanding your data, let's see if we can run gaussian detection or other clustering methods to determine when these events happen. If not can we add any additional features to do so?
 
-### 4. How do we use this data beyond what we have?
+**4. How do we use this data beyond what we have?**
 How can we apply this information to a more general idea against the stock market itself. Can we create any features from this EDA or at least determine when we should avoid trading if the model is not good enough. How do we go about measuring the success or practicality of these ideas?
