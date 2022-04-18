@@ -23,4 +23,4 @@ Understanding your data, let's see if we can run gaussian detection or other clu
 
 **4. How do we use this data beyond what we have?**
 
-How can we apply this information to a more general idea against the stock market itself. Can we create any features from this EDA or at least determine when we should avoid trading if the model is not good enough. How do we go about measuring the success or practicality of these ideas?
+How can we apply this information to a more general idea against the stock market itself. Can we create any features from this EDA or determine when we should avoid trading if the model is not good enough. How do we go about measuring the success or practicality of these ideas?
