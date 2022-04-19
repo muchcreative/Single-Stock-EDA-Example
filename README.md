@@ -1,6 +1,6 @@
 ## Single-Stock-EDA
 
-STILL UPLOADING AND CLEANING UP THIS REPO
+**STILL UPLOADING AND CLEANING UP THIS REPO**
 
 Single Stock EDA Example for Anomaly Detection and Feature Clustering
 
