@@ -19,7 +19,7 @@ Histograms, QQ-plots, ACF, and PACF plots are your friends. Summarize findings a
 
 **3. Brainstorming for Outlier Handling**
 
-Check discretionization, winsorization, or filling effects.
+Check discretization, winsorization, or filling effects.
 
 **4. Anomaly Detection and Clustering**
 
