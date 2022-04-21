@@ -13,12 +13,10 @@ This is an excerpt from one of my stock machine learning programs.
 Before we start we also need to make some data assumptions.
 
 Data:
-- Null hypothesis is that long-term trends are not identifiable in a single stock
 - Data and stock market is non-stationary
 - Stock data does not follow a random walk
 
 Goals: 
-- Reject the above null hypothesis
 - Create understandable and applicable machine learning or strategy algorithmic features with EDA
 
 Will be, not completely a random walk but a verison of it with some underlying trend or drift and creating algorithsm to help trade the stock market are multivariate models with univariate models being impractical in real-life. 
