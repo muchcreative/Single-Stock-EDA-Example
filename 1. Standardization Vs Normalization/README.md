@@ -4,6 +4,8 @@
 
 Taken from [GeeksForGeeks: Normalization Vs Standardization](https://www.geeksforgeeks.org/normalization-vs-standardization]). Stock data is non-stationary time series data meaning their "means, variances, and covariances that change over time. Non-stationary behaviors can be trends, cycles, random walks, or combinations of the three." Further explanation of non-stationarity can be found [here](https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,or%20combinations%20of%20the%20three).
 
+Assumptions will be , not completely a random walk and creatine algorithsm to help trade the stock market are multivariate models with univariate ideas being impractical in real-life. 
+
 Deterministic Trend 
 
 **Standardization:**
