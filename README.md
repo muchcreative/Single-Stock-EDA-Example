@@ -10,6 +10,8 @@ I am assuming you already have the adjusted OHLCV data for a single stock. If yo
 
 This is an excerpt from one of my stock machine learning programs.
 
+Assumptions will be, not completely a random walk but a verison of it with some underlying trend or drift and creating algorithsm to help trade the stock market are multivariate models with univariate models being impractical in real-life. 
+
 ## Breakdown
 
 **1. Standardization Vs Normalization**
