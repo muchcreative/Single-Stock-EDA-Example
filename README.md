@@ -10,14 +10,19 @@ I am assuming you already have the adjusted OHLCV data for a single stock. If yo
 
 This is an excerpt from one of my stock machine learning programs.
 
+**Starting Assumptions and Data**
+
 Before we start we also need to make some data assumptions.
 
 Data:
-- Data and stock market is non-stationary
-- Stock data does not follow a random walk
+- Data and stock OHLC data market is non-stationary
+- Stock data does not completely follow a random walk, but there are trends within a stock price that can be determined by a random walk with a deterministic trend and drift. With the following being proved with both the advent of algorithmic trading strategies but more so with HFT (high frequency trading).
 
 Goals: 
-- Create understandable and applicable machine learning or strategy algorithmic features with EDA
+- Create applicable machine learning or strategy algorithmic features
+
+There our Null Hypothesis Will Be:
+- *Some null hypothesis*
 
 Will be, not completely a random walk but a verison of it with some underlying trend or drift and creating algorithsm to help trade the stock market are multivariate models with univariate models being impractical in real-life. 
 
