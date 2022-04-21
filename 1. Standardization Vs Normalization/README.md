@@ -2,7 +2,7 @@
 
 **What is the difference?**
 
-Taken from (GeeksForGeeks: Normalization)[https://www.geeksforgeeks.org/normalization-vs-standardization/]
+Taken from [GeeksForGeeks: Normalization Vs Standardization](https://www.geeksforgeeks.org/normalization-vs-standardization/]).
 
 Normalization is used to transform features to be on a similar scale.
 
