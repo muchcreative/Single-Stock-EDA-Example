@@ -1,8 +1,12 @@
 ## Normalization Vs Standardization
 
-**What is the difference?**
+"Two there should be. No more, no less."
 
-Taken from [GeeksForGeeks: Normalization Vs Standardization](https://www.geeksforgeeks.org/normalization-vs-standardization/]).
+**Let's Start with the Difference Between the Two**
+
+Taken from [GeeksForGeeks: Normalization Vs Standardization](https://www.geeksforgeeks.org/normalization-vs-standardization/]).t
+
+
 
 Normalization is used to transform features to be on a similar scale.
 
