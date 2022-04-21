@@ -8,12 +8,9 @@ Deterministic Trend
 
 **Standardization:**
 
-The most indsutry wide type of feature transformation for stock trading are log returns. A good explanation of why to use log returns from Quantivity read [here] (https://quantivity.wordpress.com/2011/02/21/why-log-returns/). 
-
-
+The most indsutry wide type of feature transformation for stock trading are log returns. A good explanation of why to use log returns from Quantivity read [here] (https://quantivity.wordpress.com/2011/02/21/why-log-returns/).
 
 Standardization is the transofrmation of features by subtracting from mean and dividng by standard deviation
-
 
 Standardization can be helpful in cases where the data follows a Gaussian distribution. 
 However, this does not have to be necessarily true. Geometrically speaking, it translates the data to the mean vector of original data to the origin and squishes or expands the points if std is 1 respectively. 
@@ -23,7 +20,4 @@ Standardization does not get affected by outliers because there is no predefined
 
 **Normalization:**
 
-
 Normalization is used to transform features to be on a similar scale.
-
-
