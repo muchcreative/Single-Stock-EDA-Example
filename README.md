@@ -25,7 +25,7 @@ Will be, not completely a random walk but a verison of it with some underlying t
 
 ## Breakdown
 
-**1. Standardization Vs Normalization**
+**1. Initial Data Transformations: Log Transformations, Standarization, and Other Methods**
 
 Test different ways for standardizing vs normalizing your stock data. For plotting, histograms, QQ-plots, ACF, and PACF plots are your friends. Summarize findings and understand your cutoff to identify your fat-tail distributions using these methods. 
 
