@@ -2,12 +2,14 @@
 
 **Let's Start with the Difference Between the Two**
 
-Taken from [GeeksForGeeks: Normalization Vs Standardization](https://www.geeksforgeeks.org/normalization-vs-standardization/]). Stock data is non-stationary time series data meaning their "means, variances, and covariances that change over time. Non-stationary behaviors can be trends, cycles, random walks, or combinations of the three."
+Taken from [GeeksForGeeks: Normalization Vs Standardization](https://www.geeksforgeeks.org/normalization-vs-standardization/]). Stock data is non-stationary time series data meaning their "means, variances, and covariances that change over time. Non-stationary behaviors can be trends, cycles, random walks, or combinations of the three." Further explanation of non-stationarity can be found (here)[https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,or%20combinations%20of%20the%20three.].
 
+Deterministic Trend 
 
 **Standardization:**
 
 The most indsutry wide type of feature transformation for stock trading are log returns. A good explanation of why to use log returns from Quantivity read [here] (https://quantivity.wordpress.com/2011/02/21/why-log-returns/). 
+
 
 
 Standardization is the transofrmation of features by subtracting from mean and dividng by standard deviation
