@@ -1,10 +1,13 @@
-## Single-Stock-EDA
+## Single-Stock-EDA-for-Black-Swan-Events
 
 **STILL UPLOADING AND CLEANING UP THIS REPO**
 
-Single Stock EDA Example for Anomaly Detection and Feature Clustering
-
 High volatilities, high kurtosises, and fat-tail distributions are the enemy of stock trading machine learning models. Let's try to analyze these problems and understand how to create features for models to recognize these black-swan events for a single stock.
+
+**Goals:** 
+- Create applicable machine learning or strategy algorithmic features
+
+
 
 I am assuming you already have the adjusted OHLCV data for a single stock. If you do not have this data, look into my other repositories for how to build a rotating stock dataset. You will also need market data for part 4 below.
 
@@ -12,8 +15,6 @@ This is an excerpt from one of my stock machine learning programs.
 
 **Starting Ideas**
 
-**Goals:** 
-- Create applicable machine learning or strategy algorithmic features
 
 There our Null Hypothesis Will Be:
 - *Some null hypothesis*
@@ -22,7 +23,9 @@ Will be, not completely a random walk but a verison of it with some underlying t
 
 ## Breakdown
 
-**1. Initial Data Transformations: Log Transformations, Standarization, and Other Methods**
+**1. Initial Data Transformations**
+
+We need to test out Log Transformations, Standarization, and Other Methods**
 
 Test different ways for standardizing vs normalizing your stock data. For plotting, histograms, QQ-plots, ACF, and PACF plots are your friends. Summarize findings and understand your cutoff to identify your fat-tail distributions using these methods. 
 
