@@ -18,12 +18,13 @@ If you do not have this data, look into my other repositories for building a sto
 
 **Null Hypothesis**
 
-After defining our goals let's create a null hypothesis to encompass what we have to reject to create features or indicators for our strategy.
+After defining our goals let's create a null hypothesis to encompass what we have to reject to verify that we can create features or indicators for our strategy.
 
-<p align="center"> *Black swan events are not recognizable and can not be accounted for when trading* </p>
+<p align="center"> <em> Black swan events are not recognizable and can not be accounted for when trading. </p> </em>
  
 **Getting Started**
 
+With the above out of the way, let's breakdown what is in this repository.
 
 ## Breakdown
 
