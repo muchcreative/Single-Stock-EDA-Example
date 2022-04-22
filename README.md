@@ -4,7 +4,8 @@
 
 High volatilities, high kurtosises, and fat-tail distributions are the enemy of stock trading machine learning models. Let's try to analyze these problems and understand how to create features for models to recognize these black-swan events for a stock. With this in mind we can sum up what we are looking for with 3 goals and work from there.
 
-**Goals:**
+**Goals and Data Prerequisites**
+
 1. How will we define and recognize black swan events?
 2. Can we extract features from these events that can be translated to practical uses?
 3. If (2) is not possible, can we introduce other data or add additional dimensions to aid in this task? 
@@ -15,11 +16,11 @@ For this EDA you will need the following data prerequisites below:
 
 If you do not have this data, look into my other repositories for building a stock database.
 
-**Starting Ideas**
+**Null Hypothesis:**
 
 After defining our goals let's create a null hypothesis to encompass what we have to reject to create features or indicators for our strategy.
 
-*Our Null Hypothesis: Black swan events are not recognizable and can not be accounted for when trading*
+*Black swan events are not recognizable and can not be accounted for when trading*
 
 ## Breakdown
 
