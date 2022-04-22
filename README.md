@@ -37,7 +37,7 @@ Test different ways for standardizing vs normalizing your stock data. For plotti
 
 **2. Outlier Handling**
 
-Check discretization, winsorization, or filling effects.
+Check discretization, winsorization, filling effects or even if they can be applied here. There is a high chance that this type of filling reduces the volatility of the stock and therefore the correlations between other features. 
 
 **3. Anomaly Detection and Clustering**
 
