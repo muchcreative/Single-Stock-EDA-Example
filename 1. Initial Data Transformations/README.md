@@ -4,7 +4,6 @@ Since individual stock data and their prices all vary. You have to be able to ch
 
 We will go over some initial data transformations that 
 
-
 not completely a random walk and creatine algorithsm to help trade the stock market are multivariate models with univariate ideas being impractical in real-life. 
 
 Data:
