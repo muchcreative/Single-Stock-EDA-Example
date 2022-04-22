@@ -2,24 +2,24 @@
 
 **STILL UPLOADING AND CLEANING UP THIS REPO**
 
-High volatilities, high kurtosises, and fat-tail distributions are the enemy of stock trading machine learning models. Let's try to analyze these problems and understand how to create features for models to recognize these black-swan events for a single stock.
+High volatilities, high kurtosises, and fat-tail distributions are the enemy of stock trading machine learning models. Let's try to analyze these problems and understand how to create features for models to recognize these black-swan events for a stock. With this in mind we can sum up what we are looking for with 3 goals and work from there.
 
-**Goals:** 
-- Create applicable machine learning or strategy algorithmic features
+**Goals:**
+1. How will we define and recognize black swan events?
+2. Can we extract features from these events that can be translated to practical uses?
+3. If (2) is not possible, can we introduce other data or add additional dimensions to aid in this task? 
 
+For this EDA you will need the following data prerequisites below:
+- Adjusted OHLCV data for a variety of stocks.
+- Adjusted OHLCV data for a basket of market indices.
 
-
-I am assuming you already have the adjusted OHLCV data for a single stock. If you do not have this data, look into my other repositories for how to build a rotating stock dataset. You will also need market data for part 4 below.
-
-This is an excerpt from one of my stock machine learning programs.
+If you do not have this data, look into my other repositories for building a stock database.
 
 **Starting Ideas**
 
+After defining our goals let's create a null hypothesis to encompass what we have to reject to create features or indicators for our strategy.
 
-There our Null Hypothesis Will Be:
-- *Some null hypothesis*
-
-Will be, not completely a random walk but a verison of it with some underlying trend or drift and creating algorithsm to help trade the stock market are multivariate models with univariate models being impractical in real-life. 
+*Our Null Hypothesis: Black swan events are not recognizable and can not be accounted for when trading*
 
 ## Breakdown
 
