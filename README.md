@@ -2,7 +2,7 @@
 
 **STILL UPLOADING AND CLEANING UP THIS REPO**
 
-High volatilities, high kurtosises, and fat-tail distributions are the enemy of stock trading machine learning models. Let's try to analyze these problems and understand how to create features for models to recognize these black-swan events for a stock. With this in mind we can sum up what we are looking for with 3 goals and work from there.
+High volatilities, high kurtosises, and fat-tail distributions are the enemy of stock trading machine learning models. Let's try to analyze these problems and understand how to create features for models to recognize these black-swan events for a stock or avoid them entirely. With these thoughts in mind we can sum up what we are looking for in 3 goals and start work from there.
 
 **Goals and Data Prerequisites**
 
@@ -24,7 +24,7 @@ After defining our goals let's create a null hypothesis to encompass what we hav
  
 **Getting Started**
 
-With the above out of the way, I will include all the modules I used in their respective sections under a module folder. Additionally, due to the changing nature of stock data, I will only be pulling around 15 years of data from my own database for the years 2008 to 2022. However, this will change depending on the task at hand. Ok, now, let's breakdown what is in this repository.
+With the above out of the way, I will include all the modules I used in their respective sections under a module folder. Additionally, due to the changing nature of stock data, I will only be pulling around 15 years of data from my own database for the years 2008 to 2022. However, this timeframe will change depending on the task at hand, so it should not be a problem if your timeframes differ from mine. Ok, now, let's breakdown what is in this repository.
 
 ## Breakdown
 
