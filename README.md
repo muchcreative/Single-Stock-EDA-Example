@@ -30,7 +30,7 @@ With the above out of the way, let's breakdown what is in this repository.
 
 **1. Initial Data Transformations**
 
-We need to test out Log Transformations, Standarization, and Other Methods**
+We need to test out Log Transformations, Standarization, and Other Methods
 
 Test different ways for standardizing vs normalizing your stock data. For plotting, histograms, QQ-plots, ACF, and PACF plots are your friends. Summarize findings and understand your cutoff to identify your fat-tail distributions using these methods. 
 
