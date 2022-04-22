@@ -1,31 +1,36 @@
-## Stock-EDA-Example-for-Black-Swan-Events
+## Stock-EDA-for-Black-Swan-Events
 
 **STILL UPLOADING AND CLEANING UP THIS REPO**
 
-High volatilities, high kurtosises, and fat-tail distributions are the enemy of stock trading machine learning models. Let's try to analyze these problems and understand how to create features for models to recognize these black-swan events for a single stock.
+High volatilities, high kurtosises, and fat-tail distributions are the enemy of stock trading machine learning models. Let's try to analyze these problems and understand how to create features for models to recognize these black-swan events for a stock. With this in mind we can sum up what we are looking for with 3 goals and work from there.
 
-**Goals:** 
-- Create applicable machine learning or strategy algorithmic features
+**Goals and Data Prerequisites**
 
+1. How will we define and recognize black swan events?
+2. Can we extract features from these events that can be translated to practical uses?
+3. If (2) is not possible, can we introduce other data or add additional features/dimensions to aid in this task? 
 
+For this EDA you will need the following data prerequisites below:
+- Adjusted OHLCV data for a variety of stocks.
+- Adjusted OHLCV data for a basket of market indices.
 
-I am assuming you already have the adjusted OHLCV data for a single stock. If you do not have this data, look into my other repositories for how to build a rotating stock dataset. You will also need market data for part 4 below.
+If you do not have this data, look into my other repositories for building a stock database.
 
-This is an excerpt from one of my stock machine learning programs.
+**Null Hypothesis**
 
-**Starting Ideas**
+After defining our goals let's create a null hypothesis to encompass what we have to reject to verify that we can create features or indicators for our strategy.
 
+<p align="center"> <em> Black swan events are not recognizable and can not be accounted for when trading. </p> </em>
+ 
+**Getting Started**
 
-There our Null Hypothesis Will Be:
-- *Some null hypothesis*
-
-Will be, not completely a random walk but a verison of it with some underlying trend or drift and creating algorithsm to help trade the stock market are multivariate models with univariate models being impractical in real-life. 
+With the above out of the way, let's breakdown what is in this repository.
 
 ## Breakdown
 
 **1. Initial Data Transformations**
 
-We need to test out Log Transformations, Standarization, and Other Methods**
+We need to test out Log Transformations, Standarization, and Other Methods
 
 Test different ways for standardizing vs normalizing your stock data. For plotting, histograms, QQ-plots, ACF, and PACF plots are your friends. Summarize findings and understand your cutoff to identify your fat-tail distributions using these methods. 
 
