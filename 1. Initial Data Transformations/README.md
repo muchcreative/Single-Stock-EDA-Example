@@ -1,6 +1,11 @@
 ## 1. Initial Data Transformations
 
-Assumptions will be , not completely a random walk and creatine algorithsm to help trade the stock market are multivariate models with univariate ideas being impractical in real-life. 
+Since individual stock data and their prices all vary. You have to be able to change your prices to robust forms that can be used for machine learning
+
+We will go over some initial data transformations that 
+
+
+not completely a random walk and creatine algorithsm to help trade the stock market are multivariate models with univariate ideas being impractical in real-life. 
 
 Data:
 - Data and stock OHLC data market is non-stationary
