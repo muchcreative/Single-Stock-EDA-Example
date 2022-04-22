@@ -6,6 +6,10 @@ Taken from [GeeksForGeeks: Normalization Vs Standardization](https://www.geeksfo
 
 Assumptions will be , not completely a random walk and creatine algorithsm to help trade the stock market are multivariate models with univariate ideas being impractical in real-life. 
 
+Data:
+- Data and stock OHLC data market is non-stationary
+- Stock data does not completely follow a random walk, but there are trends within a stock price that can be determined by a random walk with a deterministic trend or drift. With the following being proved with both the advent of algorithmic trading strategies but more so with HFT (high frequency trading).
+
 Deterministic Trend 
 
 **Standardization:**
