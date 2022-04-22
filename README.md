@@ -6,11 +6,12 @@ High volatilities, high kurtosises, and fat-tail distributions are the enemy of 
 
 **Goals and Data Prerequisites**
 
+**Goals:**
 1. How will we define and recognize black swan events?
 2. Can we extract features from these events that can be translated to practical uses?
 3. If (2) is not possible, can we introduce other data or add additional features/dimensions to aid in this task? 
 
-For this EDA you will need the following data prerequisites below:
+**Data Prerequisites:**
 - Adjusted OHLCV data for a variety of stocks.
 - Adjusted OHLCV data for a basket of market indices.
 
