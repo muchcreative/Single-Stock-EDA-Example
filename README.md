@@ -1,4 +1,4 @@
-## Single-Stock-EDA-for-Black-Swan-Events
+## Stock-EDA-Example-for-Black-Swan-Events
 
 **STILL UPLOADING AND CLEANING UP THIS REPO**
 
