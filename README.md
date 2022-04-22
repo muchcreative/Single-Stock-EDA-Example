@@ -24,7 +24,7 @@ After defining our goals let's create a null hypothesis to encompass what we hav
  
 **Getting Started**
 
-With the above out of the way, I will include all the modules I used in their respective sections under a module folder. Additionally, due to the changing nature of stock data, I will only be pulling from 15 years of data from my own database. However, this will change depending on the task at hand. Ok, now, let's breakdown what is in this repository.
+With the above out of the way, I will include all the modules I used in their respective sections under a module folder. Additionally, due to the changing nature of stock data, I will only be pulling around 15 years of data from my own database for the years 2008 to 2022. However, this will change depending on the task at hand. Ok, now, let's breakdown what is in this repository.
 
 ## Breakdown
 
