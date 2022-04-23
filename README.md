@@ -37,7 +37,7 @@ Test different ways for standardizing vs normalizing your stock data. For plotti
 
 **2. Outlier Handling**
 
-Check discretization, winsorization, filling effects or even if they can be applied here. There is a high chance that this type of filling reduces the volatility of the stock and therefore losing the information from the correlations between other features; overtime leading to model drift (reducing overall model accuracy). If that is the case, outliers should not be removed.
+Check discretization, winsorization, filling effects or even if they can be applied here. There is a high chance that this type of filling reduces the volatility of the stock and therefore losing the information from the correlations between other features you may have if you have a multivariate system. This can easily lead to model drift (reducing overall model accuracy). If that is the case, outliers should not be removed, but should be accounted for in a strategy or ml system.
 
 **3. Anomaly Detection and Clustering**
 
