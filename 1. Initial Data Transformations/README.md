@@ -24,4 +24,4 @@ Looking forward, because this data will be entered into an RNN, transformer, or 
 
 **4. Miscellaneous**
 
-There has been papers published using Autoencoders or PCA to convert time sequences to an embedded vector space and analyze this space with transformers. I will skip this section for brevity and lack of research in its applicability, but it is something to keep in mind.
+There have been papers published using Autoencoders or PCA to convert time sequences to an embedded vector space and analyze this space with attention models or other ANNs. I will skip this section for brevity and lack of research in its applicability, but it is something to keep in mind.
