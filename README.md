@@ -2,15 +2,16 @@
 
 **STILL UPLOADING AND CLEANING UP THIS REPO**
 
-High volatilities, high kurtosises, and fat-tail distributions are the enemy of stock trading machine learning models. Let's try to analyze these problems and understand how to create features for models to recognize these black-swan events for a stock. With this in mind we can sum up what we are looking for with 3 goals and work from there.
+High volatilities, high kurtosises, and fat-tail distributions are the enemy of stock trading machine learning models. Let's try to analyze these problems and understand how to create features for models to recognize these black-swan events for a stock or avoid them entirely. With these thoughts in mind we can sum up what we are looking for in 3 goals and start work from there.
 
 **Goals and Data Prerequisites**
 
+**Goals:**
 1. How will we define and recognize black swan events?
 2. Can we extract features from these events that can be translated to practical uses?
 3. If (2) is not possible, can we introduce other data or add additional features/dimensions to aid in this task? 
 
-For this EDA you will need the following data prerequisites below:
+**Data Prerequisites:**
 - Adjusted OHLCV data for a variety of stocks.
 - Adjusted OHLCV data for a basket of market indices.
 
@@ -24,7 +25,7 @@ After defining our goals let's create a null hypothesis to encompass what we hav
  
 **Getting Started**
 
-With the above out of the way, let's breakdown what is in this repository.
+With the above out of the way, I will include all the modules I used in their respective sections under a module folder. Additionally, due to the changing nature of stock data, I will only be pulling around 15 years of data from my own database for the years 2008 to 2022. However, this timeframe will change depending on the task at hand, so it should not be a problem if your timeframes differ from mine. Ok, now, let's breakdown what is in this repository.
 
 ## Breakdown
 
@@ -36,7 +37,7 @@ Test different ways for standardizing vs normalizing your stock data. For plotti
 
 **2. Outlier Handling**
 
-Check discretization, winsorization, or filling effects.
+Check discretization, winsorization, filling effects or even if they can be applied here. There is a high chance that this type of filling reduces the volatility of the stock and therefore the correlations between other features. 
 
 **3. Anomaly Detection and Clustering**
 

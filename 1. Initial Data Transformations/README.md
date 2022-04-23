@@ -1,21 +1,31 @@
-## Normalization Vs Standardization
+## 1. Initial Data Transformations
 
-**Let's Start with the Difference Between the Two**
+Starting with data transformations first, since individual stock data and their prices all vary. You have to be able to change your prices to robust forms that can be used for machine learning or algorthmic trading. Outputs must be consistent and reproducible in the vast majority of times. Additionally, casting the data to a normal distribution has benefits for anova and other statistical methods to be applied later.
 
-Taken from [GeeksForGeeks: Normalization Vs Standardization](https://www.geeksforgeeks.org/normalization-vs-standardization]). Stock data is non-stationary time series data meaning their "means, variances, and covariances that change over time. Non-stationary behaviors can be trends, cycles, random walks, or combinations of the three." Further explanation of non-stationarity can be found [here](https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,or%20combinations%20of%20the%20three).
+**Data Characteristics Assumptions**
 
-Assumptions will be , not completely a random walk and creatine algorithsm to help trade the stock market are multivariate models with univariate ideas being impractical in real-life. 
-
-Data:
 - Data and stock OHLC data market is non-stationary
-- Stock data does not completely follow a random walk, but there are trends within a stock price that can be determined by a random walk with a deterministic trend or drift. With the following being proved with both the advent of algorithmic trading strategies but more so with HFT (high frequency trading).
+- Stock data does not completely follow a random walk, but there are trends within a stock price that can be determined by a random walk with a deterministic trend or drift. With the following being proved with both the advent of algorithmic trading strategies HFT (high frequency trading) and the success of momentum trading.
+- Predicting a single price of stock data can not be done with a univariate model. Stock data and the market is a multivariate and complex system.
 
-Deterministic Trend 
 
-**Standardization:**
+### Types of Data Transformations
 
-The most indsutry wide type of feature transformation for stock trading are log returns. A good explanation of why to use log returns from Quantivity read [here] (https://quantivity.wordpress.com/2011/02/21/why-log-returns/).
+**1. Basic Returns**
 
+Normalization is used to transform features to be on a similar scale. Can be seen as bases each by their returns
+
+**2. Frequency Domain**
+
+Frequency Domain
+
+**3. Log-Returns**
+
+The most well known form of data transformations for the stock market. Quantivity read [here] (https://quantivity.wordpress.com/2011/02/21/why-log-returns/).
+
+**4. Moving Averages**
+
+The most indsutry wide type of feature transformation for stock trading are log returns. A good explanation of why to use log returns from
 Standardization is the transofrmation of features by subtracting from mean and dividng by standard deviation
 
 Standardization can be helpful in cases where the data follows a Gaussian distribution. 
@@ -23,7 +33,3 @@ However, this does not have to be necessarily true. Geometrically speaking, it t
 We can see that we are just changing mean and standard deviation to a standard normal distribution which is still normal thus the shape of the distribution is not affected.
 
 Standardization does not get affected by outliers because there is no predefined range of transformed features.
-
-**Normalization:**
-
-Normalization is used to transform features to be on a similar scale.
