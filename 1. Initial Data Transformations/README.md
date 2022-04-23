@@ -13,7 +13,7 @@ Starting with data transformations first, since individual stock data and their 
 
 **1. Basic Returns**
 
-Normalization is used to transform features to be on a similar scale. Can be seen as bases each by their returns
+The easiest type of data transformation is using basic returns
 
 **2. Frequency Domain**
 
@@ -23,8 +23,6 @@ Frequency Domain
 
 The most well known form of data transformations for the stock market. Quantivity read [here] (https://quantivity.wordpress.com/2011/02/21/why-log-returns/).
 
-**4. Moving Averages**
-
 The most indsutry wide type of feature transformation for stock trading are log returns. A good explanation of why to use log returns from
 Standardization is the transofrmation of features by subtracting from mean and dividng by standard deviation
 
@@ -33,3 +31,7 @@ However, this does not have to be necessarily true. Geometrically speaking, it t
 We can see that we are just changing mean and standard deviation to a standard normal distribution which is still normal thus the shape of the distribution is not affected.
 
 Standardization does not get affected by outliers because there is no predefined range of transformed features.
+
+**4. Moving Averages**
+
+Looking forward, because this data will be entered into an LSTM or transformer as a sequence. There may be a possbility to utilize moving averages as features. Selecting an arbitrary sequence length.
