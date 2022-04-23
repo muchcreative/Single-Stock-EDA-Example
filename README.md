@@ -33,7 +33,7 @@ With the above out of the way, I will include all the modules I used in their re
 
 We need to test out Log Transformations, Standarization, and Other Methods
 
-Test different ways for standardizing vs normalizing your stock data. For plotting, histograms, QQ-plots, ACF, and PACF plots are your friends. Summarize findings and understand your cutoff to identify your fat-tail distributions using these methods. 
+Test different ways for standardizing vs normalizing your stock data. For plotting, histograms, Q-Q plots, ACF, and PACF plots are your friends. Summarize findings and understand your cutoff to identify your fat-tail distributions using these methods. 
 
 **2. Outlier Handling**
 
