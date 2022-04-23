@@ -12,24 +12,15 @@ Starting with data transformations first, since individual stock data and their 
 
 **1. Basic Returns**
 
-The easiest type of data transformation is using basic returns
+The easiest type of data transformation is using basic daily returns given as (P2/P1) for your machine learning or strategy inputs.
 
 **2. Log-Returns**
 
-The most well known form of data transformations for the stock market. Quantivity read [here] (https://quantivity.wordpress.com/2011/02/21/why-log-returns/).
-
-The most indsutry wide type of feature transformation for stock trading are log returns. A good explanation of why to use log returns from
-Standardization is the transofrmation of features by subtracting from mean and dividng by standard deviation
-
-Standardization can be helpful in cases where the data follows a Gaussian distribution. 
-However, this does not have to be necessarily true. Geometrically speaking, it translates the data to the mean vector of original data to the origin and squishes or expands the points if std is 1 respectively. 
-We can see that we are just changing mean and standard deviation to a standard normal distribution which is still normal thus the shape of the distribution is not affected.
-
-Standardization does not get affected by outliers because there is no predefined range of transformed features.
+The most well known form of data transformations for the stock market. More information on this and well founded reasoning can be found on Quantivity, seen [here](https://quantivity.wordpress.com/2011/02/21/why-log-returns/).
 
 **3. Moving Averages**
 
-Looking forward, because this data will be entered into an LSTM or transformer as a sequence. There may be a possbility to utilize moving averages as features. Selecting an arbitrary sequence length.
+Looking forward, because this data will be entered into an LSTM or transformer as a sequence. There may be a possbility to utilize moving averages as features. Selecting an arbitrary sequence length. You can collect the daily returns and cast the returns to a simple or exponential moving average. This has the benefits of casting the sequence to a well fixed range, but also helps the machine learning algorithm leverage momentum, which is an already known and working trading strategy.
 
 **4. Misc **
 
