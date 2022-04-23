@@ -16,7 +16,7 @@ The easiest type of data transformation is using basic daily returns given as (P
 
 **2. Log-Returns**
 
-The most well known form of data transformations for the stock market. More information on this and well founded reasoning can be found on Quantivity, seen [here](https://quantivity.wordpress.com/2011/02/21/why-log-returns/). The equation is given as log(P2/P1) with the recommened log base being e, but log10 has been used before.
+The most well known form of data transformations for the stock market. More information on this and well founded reasoning can be found on Quantivity, seen [here](https://quantivity.wordpress.com/2011/02/21/why-log-returns/). The equation is given as log(P2/P1) with the recommened log base being e, but log10 has been used before. We will check both.
 
 **3. Moving Averages**
 
