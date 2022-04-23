@@ -20,7 +20,7 @@ The most well known form of data transformations for the stock market. More info
 
 **3. Moving Averages**
 
-Looking forward, because this data will be entered into an LSTM or transformer as a sequence. There may be a possbility to utilize moving averages as features. Selecting an arbitrary sequence length. You can collect the daily returns and cast the returns to a simple or exponential moving average. This has the benefits of casting the sequence to a well fixed range, but also helps the machine learning algorithm leverage momentum, which is an already known and working trading strategy.
+Looking forward, because this data will be entered into an RNN, transformer, or other model as a sequence. There may be a possbility to utilize moving averages as features. Selecting an arbitrary sequence length. You can collect the daily returns and enter the returns to a simple or exponential moving average calculation. This has the benefits of casting the sequence to a well fixed range, but also helps the machine learning algorithm leverage a momentum indicator, which is an already proven, working, and successful trading strategy.
 
 **4. Misc**
 
