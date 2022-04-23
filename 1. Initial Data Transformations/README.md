@@ -12,11 +12,11 @@ Starting with data transformations first, since individual stock data and their 
 
 **1. Basic Returns**
 
-The easiest type of data transformation is using basic daily returns given as (P2/P1) for your machine learning or strategy inputs.
+The easiest type of data transformation is using basic daily returns given as (P2 / P1) for your machine learning or strategy inputs.
 
 **2. Log-Returns**
 
-The most well known form of data transformations for the stock market. More information on this and well founded reasoning can be found on Quantivity, seen [here](https://quantivity.wordpress.com/2011/02/21/why-log-returns/).
+The most well known form of data transformations for the stock market. More information on this and well founded reasoning can be found on Quantivity, seen [here](https://quantivity.wordpress.com/2011/02/21/why-log-returns/). The equation is given as log(P2/P1) with the recommened log base being e, but log10 has been used before.
 
 **3. Moving Averages**
 
