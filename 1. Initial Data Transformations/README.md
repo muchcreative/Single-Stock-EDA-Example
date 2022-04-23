@@ -8,7 +8,6 @@ Starting with data transformations first, since individual stock data and their 
 - Stock data does not completely follow a random walk, but there are trends within a stock price that can be determined by a random walk with a deterministic trend or drift. With the following being proved with both the advent of algorithmic trading strategies HFT (high frequency trading) and the success of momentum trading.
 - Predicting a single price of stock data can not be done with a univariate model. Stock data and the market is a multivariate and complex system.
 
-
 ### Types of Data Transformations
 
 **1. Basic Returns**
