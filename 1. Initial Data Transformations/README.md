@@ -14,11 +14,7 @@ Starting with data transformations first, since individual stock data and their 
 
 The easiest type of data transformation is using basic returns
 
-**2. Frequency Domain**
-
-Frequency Domain
-
-**3. Log-Returns**
+**2. Log-Returns**
 
 The most well known form of data transformations for the stock market. Quantivity read [here] (https://quantivity.wordpress.com/2011/02/21/why-log-returns/).
 
@@ -31,6 +27,10 @@ We can see that we are just changing mean and standard deviation to a standard n
 
 Standardization does not get affected by outliers because there is no predefined range of transformed features.
 
-**4. Moving Averages**
+**3. Moving Averages**
 
 Looking forward, because this data will be entered into an LSTM or transformer as a sequence. There may be a possbility to utilize moving averages as features. Selecting an arbitrary sequence length.
+
+**4. Misc **
+
+There has been papers published using Autoencoders or PCA to convert time sequences to an embedded vector space and analyze this space with transformers. I will skip this section for brevity and lack of research in its applicability, but it is something to keep in mind.
