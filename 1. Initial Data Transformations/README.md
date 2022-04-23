@@ -22,6 +22,6 @@ The most well known form of data transformations for the stock market. More info
 
 Looking forward, because this data will be entered into an LSTM or transformer as a sequence. There may be a possbility to utilize moving averages as features. Selecting an arbitrary sequence length. You can collect the daily returns and cast the returns to a simple or exponential moving average. This has the benefits of casting the sequence to a well fixed range, but also helps the machine learning algorithm leverage momentum, which is an already known and working trading strategy.
 
-**4. Misc **
+**4. Misc**
 
 There has been papers published using Autoencoders or PCA to convert time sequences to an embedded vector space and analyze this space with transformers. I will skip this section for brevity and lack of research in its applicability, but it is something to keep in mind.
