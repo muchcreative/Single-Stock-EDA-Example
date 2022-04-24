@@ -1,12 +1,12 @@
 ## 1. Initial Data Transformations
 
-Starting with data transformations first, since individual stock data and their prices all vary. You have to be able to change your prices to robust forms that can be used for machine learning or algorthmic trading. Outputs must be consistent and reproducible in the vast majority of times. Additionally, casting the data to a normal distribution has benefits for anova and other statistical methods to be applied later.
+Starting with data transformations first, since individual stock data and their prices all vary. You have to be able to change your prices to robust forms that can be used for machine learning or algorthmic trading. Outputs must be consistent and reproducible in the vast majority of times. Additionally, casting the data to a normal distribution has benefits for ANOVA and other statistical methods to be applied later.
 
 **Data Characteristics Assumptions**
 
 - Data and stock OHLC data market is non-stationary
 - Stock data does not completely follow a random walk, but there are trends within a stock price that can be determined by a random walk with a deterministic trend or drift. With the following being proved with both the advent of algorithmic trading strategies HFT (high frequency trading) and the success of momentum trading.
-- Predicting a single price of stock data can not be done with a univariate model. Stock data and the market is a multivariate and complex system.
+- Predicting a single price of stock data can not be done with a univariate model. Stock data and the market it exists in is a multivariate and complex system.
 
 ### Types of Data Transformations
 
