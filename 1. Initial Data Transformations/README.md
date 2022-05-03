@@ -24,4 +24,4 @@ Looking forward in our pipeline and how the data will be used, because the data 
 
 **4. Miscellaneous**
 
-There have been papers published using Autoencoders or PCA to convert time sequences to an embedded vector space and analyze this space with attention models or other ANNs. I will skip this section for brevity and lack of research in its applicability, but it is something to keep in mind. Alternatively, there has been research done in Fourier Transformations and decompositions into frequency domain. However, that has yet to show significant results over long-term dependencies or sequence lengths. In our case, we will stick to the more basic transformations to try to capture more human trading behaviors for the model.
+There has been research done in Fourier Transformations and decompositions into frequency domain. However, that has yet to show significant results over long-term dependencies or sequence lengths. In our case, we will stick to the more basic transformations to try to capture more human trading behaviors for the model.
